@@ -1,0 +1,18 @@
+<html>
+
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+  <h1>Broker Summary Ritel</h1>
+  <div>
+    <label for="hari">Berapa hari(minimal 1 hari):</label>
+    <input type="number" name="hari" id="hari" />
+  </div>
+  <button onclick="go()">Submit</button>
+  <div id="table_div"></div>
+</body>
+<?!= HtmlService.createHtmlOutputFromFile('Javascript').getContent(); ?>
+
+</html>
